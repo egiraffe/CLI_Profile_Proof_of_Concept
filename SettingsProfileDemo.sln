@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsProfileDemo.CLI", "SettingsProfileDemo.CLI\SettingsProfileDemo.CLI.csproj", "{77737B59-65AA-4229-B9A7-AF8CD9076398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsProfileDemo.BusinessLayer", "SettingsProfileDemo.BusinessLayer\SettingsProfileDemo.BusinessLayer.csproj", "{8ECCA661-C29B-4EC0-B802-C2C7FFBA814C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77737B59-65AA-4229-B9A7-AF8CD9076398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77737B59-65AA-4229-B9A7-AF8CD9076398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77737B59-65AA-4229-B9A7-AF8CD9076398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77737B59-65AA-4229-B9A7-AF8CD9076398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ECCA661-C29B-4EC0-B802-C2C7FFBA814C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECCA661-C29B-4EC0-B802-C2C7FFBA814C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECCA661-C29B-4EC0-B802-C2C7FFBA814C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECCA661-C29B-4EC0-B802-C2C7FFBA814C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,12 +1,11 @@
 using System;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using CliFx;
 using CliFx.Attributes;
 using CliFx.Exceptions;
-using SettingsProfileDemo.BusinessLayer.Enums;
 using SettingsProfileDemo.BusinessLayer.Interfaces;
+using SettingsProfileDemo.CLI.Enums;
 
 namespace SettingsProfileDemo.CLI.Commands
 {

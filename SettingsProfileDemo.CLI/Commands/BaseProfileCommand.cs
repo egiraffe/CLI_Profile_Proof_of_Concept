@@ -1,12 +1,11 @@
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using CliFx;
 using CliFx.Attributes;
 using CliFx.Exceptions;
-using SettingsProfileDemo.BusinessLayer.Enums;
 using SettingsProfileDemo.BusinessLayer.Interfaces;
 using SettingsProfileDemo.BusinessLayer.Models;
+using SettingsProfileDemo.CLI.Enums;
 
 namespace SettingsProfileDemo.CLI.Commands
 {

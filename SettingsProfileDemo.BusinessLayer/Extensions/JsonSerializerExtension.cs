@@ -5,7 +5,7 @@ namespace SettingsProfileDemo.BusinessLayer.Extensions
 {
     public static class JsonSerializerExtension
     {
-        public static JsonSerializerOptions SerializerOptions = new JsonSerializerOptions
+        public static readonly JsonSerializerOptions SerializerOptions = new JsonSerializerOptions
         {
             AllowTrailingCommas = true,
             DictionaryKeyPolicy = JsonNamingPolicy.CamelCase,

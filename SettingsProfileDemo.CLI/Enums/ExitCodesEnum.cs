@@ -1,4 +1,4 @@
-namespace SettingsProfileDemo.BusinessLayer.Enums
+namespace SettingsProfileDemo.CLI.Enums
 {
     public enum ExitCodesEnum
     {

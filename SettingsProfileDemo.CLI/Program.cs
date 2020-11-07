@@ -65,6 +65,11 @@ namespace SettingsProfileDemo.CLI
                         continue;
                     }
 
+                    if (commandText.Equals("exit", StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        continue;
+                    }
+
                     var parsedArguments = commandParsingService.ParseCommandString(commandText);
                     
                     await app.RunAsync(parsedArguments);

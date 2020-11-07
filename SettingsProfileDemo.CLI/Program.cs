@@ -46,7 +46,7 @@ namespace SettingsProfileDemo.CLI
                     commandText = string.Empty;
                     while (string.IsNullOrWhiteSpace(commandText))
                     {
-                        commandText = ReadLine.Read(string.Empty, string.Empty);
+                        commandText = ReadLine.Read(string.Empty, string.Empty).Trim();
                     }
 
                     if (commandText.Equals("clear", StringComparison.InvariantCultureIgnoreCase))

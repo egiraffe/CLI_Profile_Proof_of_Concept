@@ -14,8 +14,11 @@ namespace SettingsProfileDemo.CLI
 {
     internal class Program
     {
+        private static string[] initialArgs;
         public static async Task<int> Main(string[] args)
         {
+            initialArgs = args;
+            
             // create a di container
             var services = new ServiceCollection();
             
@@ -88,6 +91,13 @@ namespace SettingsProfileDemo.CLI
         
         static void HandleNoProfiles(object obj, EventArgs eventArgs)
         {
+            if (initialArgs != null && 
+                initialArgs.Length == 1 &&
+                initialArgs[0].Contains("help", StringComparison.InvariantCultureIgnoreCase))
+            {
+                return;
+            }
+            
             Console.WriteLine("Please add a profile to continue using this app");
 
             if (obj is IProfileManagerService profileManagerService)
